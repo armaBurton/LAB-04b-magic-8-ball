@@ -42,12 +42,12 @@ section {
     align-items: center;
 }
 
-/* #outter-shape:active {
+.shake8ball {
     animation-name: shake;
     animation-duration: 3s;
 }
 
-#outter-shape:active #cube {
+.cubeVisibility {
     animation-name: visibility;
     animation-duration: 3s;
 } */

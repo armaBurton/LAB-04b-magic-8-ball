@@ -9,8 +9,6 @@ const cube = document.getElementById('cube');
     // do any needed work with the value(s)
     // update DOM to reflect new value(s)
 roll.addEventListener('click', () => {
-    roll.style.animation = "shake 1s";
-    setTimeout(() => {
-        roll.
-    })
+    console.log('clicked');
+    //roll.classList.add('shake8ball');
 });
