@@ -4,6 +4,7 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-image: linear-gradient(180deg, orange, orange, red);
 }
 
 main {
@@ -11,12 +12,14 @@ main {
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: purple;
     height: 110px;
     padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 6px solid yellow;
+    color: white;
 }
 
 header img {
@@ -30,8 +33,10 @@ h1 {
 }
 
 footer {
-    background-color: #FAF0EA;
+    background-color: purple;
     padding: 10px;
+    border-top: 6px solid navy;
+    color: white;
 }
 
 section {
@@ -44,29 +49,30 @@ section {
 
 .shake8ball {
     animation-name: shake;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 
 .cubeVisibility {
     animation-name: visibility;
     animation-duration: 3s;
-} */
+}
 
 #outter-shape {
     width: 650px;
     height: 650px;
-    background-color: rgb(44, 44, 44);
+    background-image: linear-gradient(-45deg, #383838, #383838, black, #383838, #383838);
+    /* background-color: rgb(44, 44, 44); */
     border-radius: 325px;
     border: 5px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 10px 20px purple;
 }
 
 #inner-shape {
     width: 300px;
     height: 300px;
-    /* background-color: black; */
     background-image: linear-gradient(-45deg, black, #383838, black);
     border-radius: 150px;
     border: 5px solid rgb(61, 61, 61);
@@ -84,6 +90,8 @@ section {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #fortune {
