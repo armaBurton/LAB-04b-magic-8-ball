@@ -34,13 +34,12 @@ function randomizeMessage() {
         `Very doubtful.`
     ];
 
-    const randoNumber = Math.floor(Math.random() * 21);
+    const randoNumber = Math.floor(Math.random() * 20);
 
-    return(messageArray[randoNumber]);
+    return (messageArray[randoNumber]);
 }
 
 roll.addEventListener('click', () => {
-    console.log('clicked');
     roll.classList.add('shake8ball');
     setTimeout(() => {
         roll.classList.remove('shake8ball');
